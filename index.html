@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADS 352 örnek sayfa</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+header{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#1e293b,#0f172a);
+}
+
+header h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+header p{
+font-size:1.2rem;
+opacity:0.8;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#020617;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+section{
+padding:80px 20px;
+max-width:900px;
+margin:auto;
+}
+
+h2{
+margin-bottom:20px;
+color:#38bdf8;
+}
+
+.about p{
+opacity:0.9;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+background:#334155;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+margin-top:40px;
+}
+
+.social a{
+margin:10px;
+color:#38bdf8;
+text-decoration:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="#home">Ana Sayfa</a>
+<a href="#about">Hakkımda</a>
+<a href="#projects">Projeler</a>
+<a href="#contact">İletişim</a>
+</nav>
+
+<header id="home">
+<h1>ADS 352</h1>
+<p>Kişisel Web Sayfam</p>
+</header>
+
+<section id="about" class="about">
+<h2>Açık Kaynak Yazılım Geliştirme</h2>
+<p>
+Bu site Açık kaynak Yazılım geliştirme dersi için oluşturulmuştur.
+</p>
+</section>
+
+<section id="projects">
+<h2>Projeler</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>Proje 1</h3>
+<p>İlk web geliştirme projem.</p>
+</div>
+
+<div class="card">
+<h3>Proje 2</h3>
+<p>HTML ve CSS kullanarak yaptığım tasarım.</p>
+</div>
+
+<div class="card">
+<h3>Proje 3</h3>
+<p>Gelecekte geliştireceğim projeler burada olacak.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+<h2>İletişim</h2>
+
+<div class="social">
+<p>Email: ertugrul@example.com</p>
+<a href="#">Instagram</a>
+<a href="#">GitHub</a>
+<a href="#">LinkedIn</a>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 ADS 352.</p>
+</footer>
+
+</body>
+</html>
