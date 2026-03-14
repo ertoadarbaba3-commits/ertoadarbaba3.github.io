@@ -1,2 +1,2 @@
-# ertoadarbaba3.github.io
-ertoadarbaba3 Homepage
+# ADS 352 dersi
+Ders için örnek site oluşturma deposudur.
